@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+html, body {
+  font-family: 'Concert One', sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 90vh;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+.subtitle {
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.hero {
+  padding: 10px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00b4ff;
+}
+
+#inputBox {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+#pac-input {
+  font-family: Roboto;
+  border-radius:10px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.08);
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  margin-bottom: 10px;
+  padding: 5 11px 5 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+#sub-input {
+  margin-left: 10px;
+  background-color: #00b4ff;
+  min-height: 25px;
+  font-family: Roboto;
+  border-radius:10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-self: start;
+  border: none;
+}
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+p
+{
+  margin:0;
+  padding:0;
+  font-size:60px;
+}
+div
+{
+  margin:0;
+  padding:0;
+}
+h3
+{
+  margin:0;
+  padding:0;
+}
+input[type=text] {
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+input[type=text]:focus {
+  border: 0;
+}

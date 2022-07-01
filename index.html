@@ -1,0 +1,34 @@
+><!DOCTYPE html>
+<html>
+
+<head>
+  <title>Add Map</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+
+<body>
+  <div class="hero">
+    <img src="radar.gif" height="64px" width="64px">
+    <div class="text">
+      <h3 class="title">Atlantis</h3>
+      <p class="subtitle"'>A water distribution app</p>
+      </div>
+      
+    </div>
+
+    <div id = 'inputBox'>
+        <input id="pac-input" class="controls" type="text" placeholder="Enter an address..." />
+        <button type="submit" id="sub-input" onclick='codeAddress()'>Request</button>
+    </div>
+    <div id="map"></div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeukdfqu-zw0qhah3_JBqEOcVrEn8bAZs&callback=initMap&v=weekly"
+      defer></script>
+    <script
+      src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"> </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
